@@ -1,0 +1,25 @@
+$color-brand:#7397F5;
+$color-font-history:#5A0488;
+$color-font-hover:#125BAE;
+$color-font-main:#333;
+$color-font-second:#AAA;
+$color-border:#D5D5D5;
+$color-icons:#CBCBCB;
+$scroll-bar:#F2F2F2;
+$color-white:#FFF;
+$color-font-bg:#E2EFFF;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=PT+Sans:wght@400;700&display=swap');
+
+*{
+    color:$color-font-main;
+    font-family:'Inter', 'PT Sans', sans-serif;
+}
+.App{
+    margin: 0 100px;
+}
+.main{
+
+    margin: 24px auto 0;
+    display: flex;
+    gap: 36px;
+}

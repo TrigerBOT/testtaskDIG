@@ -1,0 +1,64 @@
+@use '../../base';
+
+.header {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+.header__logo__container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 32px;
+}
+.header__logo__title{
+  font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header__logo{
+    margin-right: 8px;
+}
+.header__dropdown {
+  border-radius: 8px;
+  border: 1px solid base.$color-brand;
+  font-weight: 500;
+  margin-right: 24px;
+  padding: 8px 24px;
+  font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.header__searchbar {
+  width: calc(100% - 660px);
+  height: 48px;
+  display: flex;
+  padding: 0 4px;
+  flex-direction: row;
+  border-radius: 10px;
+  margin-right: 24px;
+  border: 1px solid base.$color-brand;
+  align-items: center;
+}
+#search {
+  width: 100%;
+  margin-left: 8px;
+  outline: none;
+  border: none;
+}
+.header__nav{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.header__nav__link{
+    height: 18px;
+    text-wrap: nowrap;
+    font-size: 14px;
+}
